@@ -27,24 +27,24 @@ Tienda de ropa femenina desarrollada con React. Proyecto de portfolio que simula
 
 Requisitos: Node.js v18 o superior
 
-\`\`\`bash
+```bash
 git clone https://github.com/brunolopezx/elan-store.git
 cd elan-store
 npm install
 npm run dev
-\`\`\`
+```
 
 Abrir [http://localhost:5173](http://localhost:5173) en el navegador.
 
 ## Estructura del proyecto
 
-\`\`\`
+```text
 src/
 ├── components/    # Navbar, Footer
 ├── pages/         # Home, Catalog, ProductDetail, Cart, Checkout
 ├── store/         # Carrito con Zustand
 └── data/          # Productos en JSON
-\`\`\`
+```
 
 ## Capturas
 
