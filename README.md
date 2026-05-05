@@ -48,4 +48,8 @@ src/
 
 ## Capturas
 
-> Próximamente
+<p align="center">
+  <img src="./screenshot-home.png" width="30%" />
+  <img src="./screenshot-catalogo.png" width="30%" />
+  <img src="./screenshot-detalle.png" width="30%" />
+</p>
