@@ -1,16 +1,51 @@
-# React + Vite
+# ÉLAN — Tienda de indumentaria
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tienda de ropa femenina desarrollada con React. Proyecto de portfolio que simula un e-commerce real con catálogo, carrito y checkout.
 
-Currently, two official plugins are available:
+🔗 [Ver demo en vivo](https://elan-store-tan.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Catálogo con filtros por categoría y ordenamiento por precio
+- Hover en cards muestra segunda foto del producto
+- Detalle de producto con galería de imágenes y selector de talle
+- Carrito persistente con manejo de cantidades
+- Checkout con validación de formulario y selector de provincia/ciudad
+- Pantalla de confirmación de pedido
+- Diseño responsive — mobile, tablet y desktop
 
-## Expanding the ESLint configuration
+## Tecnologías
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19 + Vite
+- Tailwind CSS
+- Zustand (estado global del carrito)
+- React Router v6
+
+## Correr el proyecto localmente
+
+Requisitos: Node.js v18 o superior
+
+\`\`\`bash
+git clone https://github.com/brunolopezx/elan-store.git
+cd elan-store
+npm install
+npm run dev
+\`\`\`
+
+Abrir [http://localhost:5173](http://localhost:5173) en el navegador.
+
+## Estructura del proyecto
+
+\`\`\`
+src/
+├── components/    # Navbar, Footer
+├── pages/         # Home, Catalog, ProductDetail, Cart, Checkout
+├── store/         # Carrito con Zustand
+└── data/          # Productos en JSON
+\`\`\`
+
+## Capturas
+
+> Próximamente
