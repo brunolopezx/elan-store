@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Remera Linen",
+    "category": "remeras",
+    "price": 18500,
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Remera de lino liviano con corte relajado. Ideal para el día a día.",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600"
+    ],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Pantalón Wide Leg",
+    "category": "pantalones",
+    "price": 32000,
+    "sizes": ["S", "M", "L"],
+    "description": "Pantalón de tiro alto con pierna ancha. Tela fluida, caída perfecta.",
+    "images": [
+    "https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?w=600",
+    "https://images.unsplash.com/photo-1594938298603-c8148c4b4a1a?w=600"
+    ],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Vestido Midi",
+    "category": "vestidos",
+    "price": 41000,
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Vestido midi con escote en V y manga corta. Perfecto para cualquier ocasión.",
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600",
+      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600"
+    ],
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Blazer Oversize",
+    "category": "abrigos",
+    "price": 54000,
+    "sizes": ["S", "M", "L"],
+    "description": "Blazer oversize en tela estructurada. El básico que eleva cualquier look.",
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600",
+      "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600"
+    ],
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Remera Crop",
+    "category": "remeras",
+    "price": 14000,
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Remera crop de algodón con cuello redondo. Simple y versátil.",
+    "images": [
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=600",
+      "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=600"
+    ],
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Pantalón Cargo",
+    "category": "pantalones",
+    "price": 37000,
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Pantalón cargo con bolsillos laterales. Cómodo y con mucho estilo.",
+    "images": [
+      "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=600",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600"
+    ],
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Vestido Satinado",
+    "category": "vestidos",
+    "price": 48000,
+    "sizes": ["S", "M", "L"],
+    "description": "Vestido satinado de noche con corte recto. Elegancia sin esfuerzo.",
+    "images": [
+      "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600",
+      "https://images.unsplash.com/photo-1568251188392-ae8dc4660d8f?w=600"
+    ],
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Trench Clásico",
+    "category": "abrigos",
+    "price": 67000,
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Trench en gabardina beige con cinturón. Un clásico atemporal.",
+    "images": [
+      "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600",
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600"
+    ],
+    "featured": false
+  }
+]
